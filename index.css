@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(229, 6%, 66%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+h4,h2 {
+    color: hsl(234, 12%, 34%);
+}
+
+img {
+    margin-top: 2rem;
+    float: right;
+}
+
+.container {
+    width: 500px;
+    height: auto;
+    background-color: white ;
+    box-shadow: 0px 0px 10px #b6b6b6;
+    padding: 4rem 3rem;
+}
+
+.container .title {
+    text-align: center;
+    font-size: 2rem ;
+}
+
+.container .title .line1 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 200;
+}
+
+.container .title .desc {
+    font-size: 15px;
+    margin-top: 1rem;
+}
+
+.container .box-1 , .box-2 , .box-3 , .box-4 {
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #b6b6b6;
+    max-width: 100%;
+    width: 400px;
+    padding: 2rem 2.5rem;
+    height: 250px;
+}
+
+.container .box-2 , .box-3 , .box-4 {
+    margin-top: 2rem;
+}
+
+.container .box-1 {
+    margin-top: 5rem;
+    background-image: linear-gradient( hsl(180, 62%, 55%) 5px, white 0px);
+}
+
+.container .box-2 {
+    background-image: linear-gradient(hsl(0, 78%, 62%) 5px, white 0px);
+}
+
+.container .box-3 {
+    background-image: linear-gradient(hsl(34, 97%, 64%) 5px, white 0px);
+}
+
+.container .box-4 {
+    background-image: linear-gradient(hsl(212, 86%, 64%) 5px, white 0px) ;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        background-color: hsl(0, 0%, 98%);;
+        max-width: 100%;
+        width: 1440px;
+        height: 960px;
+        position: relative;
+    }
+
+    .container .title .desc {
+        padding: 0px 25rem;
+    }
+
+    .container .box-1 {
+        float: none;
+        transform: translateY(140px);
+    }
+
+    .container .box-2 {
+        position: absolute;
+        top: 17rem;
+        transform: translateX(470px);
+    }
+
+    .container .box-3 {
+        transform: translateX(470px);
+    }
+
+    .container .box-4 {
+        float: right;
+        transform: translateY(-423px);
+    }
+
+}
+
+
+
+
+
+
+
+
